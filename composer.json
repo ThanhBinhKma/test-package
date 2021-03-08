@@ -1,0 +1,20 @@
+{
+    "name": "sso/loginpackage",
+    "description": "Package support Login",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sso\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Sso\\SsoPackageProvider"
+            ]
+        }
+    }
+}
